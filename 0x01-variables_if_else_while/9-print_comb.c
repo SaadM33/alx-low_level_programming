@@ -1,22 +1,24 @@
 #include <stdio.h>
-
 /**
- * main - Prints numbers between 0 to 9 and letters between a to f.
- *
+ * main - prints all combinations of single-digit numbers
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i;
+    int digit;
 
-	for (i = 48; i < 58; i++)
-	{
-		putchar(i);
-	}
-	for (i = 97; i < 103; i++)
-	{
-		putchar(i);
-	}
-	putchar('\n');
-	return (0);
+    for (digit = 0; digit < 10; digit++)
+    {
+        putchar(digit + '0');
+
+        if (digit != 9)
+        {
+            putchar(',');
+            putchar(' ');
+        }
+    }
+
+    putchar('\n');
+
+    return (0);
 }
