@@ -10,7 +10,7 @@ int _isupper(int c)
 {
 int i = 0;
   
-char tab[] = "ABCDEFGHIJKLMNOPQRSTXYZ";
+char tab[] = {A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,X,Y,Z};
 
 for (i; tab[i] != '\0'; i++)
 {
