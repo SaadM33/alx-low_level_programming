@@ -10,8 +10,8 @@ if (n > 0)
 {
 for (int i = 0; i < n; i++)
 {
-_putchar(_);
+_putchar('_');
 }
 }
-_putchar(\n);
+_putchar('\n');
 }
