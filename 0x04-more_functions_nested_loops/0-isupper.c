@@ -8,14 +8,14 @@
 
 int _isupper(int c)
 {
-	int i = 0;
-	char tab[] = "ABCDEFGHIJKLMNOPQRSTXYZ";
+int i = 0;
+char tab[] = "ABCDEFGHIJKLMNOPQRSTXYZ";
 
-	for (i; i != '\0'; i++)
-	{
-		if (c == tab[i])
-			return (1);
-	}
-	return (0);
+for (i; i != '\0'; i++)
+{
+if (c == tab[i])
+return (1);
+}
+return (0);
 }
 
