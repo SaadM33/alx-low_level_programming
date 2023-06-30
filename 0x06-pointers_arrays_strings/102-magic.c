@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
 *main-its
+*return-0
 */
 int main(void)
 {
