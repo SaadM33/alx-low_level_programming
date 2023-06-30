@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+/**
+*main-its*/
 int main(void)
 {
 int n;
