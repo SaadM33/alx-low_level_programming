@@ -30,13 +30,13 @@ if (*head == NULL)
 {
 *head = new;
 return (new);
- }
+}
 
- while (temp->next)
- temp = temp->next;
+while (temp->next)
+temp = temp->next;
 
- temp->next = new;
+temp->next = new;
 
- return (new);
+return (new);
 }
 
